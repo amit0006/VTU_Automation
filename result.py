@@ -1,3 +1,4 @@
+# This script takes the screenshot of result page
 import time
 import pyautogui
 import os

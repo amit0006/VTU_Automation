@@ -1,4 +1,4 @@
-# # This code takes the image of captcha from VTU website and save it into captcha.png
+# This script takes the image of captcha from VTU website and save it into captcha.png
 import time
 from io import BytesIO
 from PIL import Image

@@ -14,7 +14,9 @@ from captcha import save_captcha_from_driver
 
 # Constants
 URL = "https://results.vtu.ac.in/DJcbcs25/index.php"
-USN_LIST = ["1AY23IS048", "1AY23IS013", "1AY23IS049"]
+# USN_LIST = ["1AY23IS048", "1AY23IS013", "1AY23IS049"]
+usn_df = pd.read_csv("usn_list.csv")
+USN_LIST = usn_df['USN'].dropna().astype(str).tolist()
 
 KNOWN_SUBJECTS = [
     "MATHEMATICS FOR COMPUTER SCIENCE",
