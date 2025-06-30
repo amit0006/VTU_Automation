@@ -6,7 +6,7 @@ import sys
 from PIL import Image
 
 # Settings
-WAIT_TIME = 10  # Time to switch to the browser window
+WAIT_TIME = 1  # Time to switch to the browser window
 SCROLL_PIXELS = 400
 IMAGE_WIDTH, IMAGE_HEIGHT = pyautogui.size()
 
