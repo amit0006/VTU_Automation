@@ -18,10 +18,10 @@ def preprocess_image(image_path, output_path="processed_captcha.png"):
 
         # Save processed image
         cv2.imwrite(output_path, img)
-        plt.imshow(img, cmap='gray')
-        plt.title("Processed CAPTCHA Image")
-        plt.axis('off')
-        plt.show()
+        # plt.imshow(img, cmap='gray')
+        # plt.title("Processed CAPTCHA Image")
+        # plt.axis('off')
+        # plt.show()
         return output_path
     except Exception as e:
         print(f"❌ Error in preprocessing: {e}")
